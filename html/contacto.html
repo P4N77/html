@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Principal</title>
+</head>
+
+<body>
+  <header>
+    <div>
+      <img src="./assets/logo.png" alt="logo">
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Index</a>
+        </li>
+        <li>
+          <a href="ingresar.html">Ingresar</a>
+        </li>
+        <li>
+          <a href="registrar.html">Registro</a>
+        </li>
+        <li>
+          <a href="contacto.html">Contactenos</a>
+        </li>
+        <li>
+          <a href="recuperarContraseña.html">Olvido su contraseña?</a>
+        </li>
+
+      </ul>
+      <ul>
+        <li>
+          <form action="lista.html" method="get">
+            <input type="text" name="busqueda" id="">
+            <button type="submit">Buscar</button>
+          </form>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div>
+    <label for="usuario">Usuario: </label>
+    <input type="text" name="usuario" id="usuario" placeholder="Ingrese su nombre de usuario" required minlength="8">
+  </div>
+
+  <div>
+    <label for="asunto">Asunto</label>
+    <input type="text" name="asunto" placeholder="ingrese el asunto" id="asunto" minlength="120" required>
+  </div>
+
+  <div>
+    <label for="correo">correo: </label>
+    <input type="text" name="correo" id="correo" placeholder="ingrese correo">
+  </div>
+
+  <div>
+    <label for="ciudad">ciudad: </label>
+    <select name="ciudad" id="ciudad">
+      <option value="" selected>seleccione...</option>
+      <option value="bucaramanga">bucaramanga</option>
+      <option value="bogota">bogota</option>
+      <option value="cali">cali</option>
+      <option value="medellin">medellin</option>
+  </div>
+
+  <div>
+    <label for="mensaje">mensaje</label>
+    <textarea name="mensaje" id="mensaje" placeholder="ingrese el mensaje" cols="30" rows="10"
+      minlength="400"></textarea>
+  </div>
+
+  <div>
+    <button type="submit">enviar</button>
+  </div>
+
+</body>
+
+</html>
