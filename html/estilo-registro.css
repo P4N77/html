@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@200;300;400;600&family=Raleway:wght@100..900&display=swap");
+* {
+  margin: auto;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  background-image: url(/html/assets/fondo-registro.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contenedor {
+  width: 70%;
+  height: 50rem;
+  margin-top: 4%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.28);
+  box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.28);
+  display: flex;
+}
+
+.info-regsitro {
+  background-color: #52dcc5;
+  width: 50%;
+  margin: auto;
+  height: 100%;
+  border-radius: 10px 0px 0px 10px;
+}
+.formulario-registro {
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  margin: auto;
+  height: 100%;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.imagen-registro {
+  width: 100%;
+  padding: 20%;
+}
+
+.frase {
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.icono-balon {
+  width: 5%;
+  margin-top: 5%;
+}
+
+.formulario {
+  border: 2px solid red;
+  font-family: "Montserrat", sans-serif;
+}
